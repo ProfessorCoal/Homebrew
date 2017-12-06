@@ -1,0 +1,32 @@
+Code  Issues 6  Pull requests 0  Pulse
+ deep-learning-with-python-notebooks/ dcaf783
+typos
+Hiroya Chiba committed 2 months ago
+2 changed files
+2 additions and 2 deletions
+6.1-one-hot-encoding-of-words-or-characters.ipynb
+@@ -155,7 +155,7 @@
+     "samples = ['The cat sat on the mat.', 'The dog ate my homework.']\n",
+     "\n",
+     "# We create a tokenizer, configured to only take\n",
+-    "# into account the top-1000 most common on words\n",
++    "# into account the top-1000 most common words\n",
+     "tokenizer = Tokenizer(num_words=1000)\n",
+     "# This builds the word index\n",
+     "tokenizer.fit_on_texts(samples)\n",
+6.1-using-word-embeddings.ipynb
+@@ -589,7 +589,7 @@
+     "Additionally, we freeze the embedding layer (we set its `trainable` attribute to `False`), following the same rationale as what you are \n",
+     "already familiar with in the context of pre-trained convnet features: when parts of a model are pre-trained (like our `Embedding` layer), \n",
+     "and parts are randomly initialized (like our classifier), the pre-trained parts should not be updated during training to avoid forgetting \n",
+-    "what they already know. The large gradient updated triggered by the randomly initialized layers would be very disruptive to the already \n",
++    "what they already know. The large gradient update triggered by the randomly initialized layers would be very disruptive to the already \n",
+     "learned features."
+    ]
+   },
+0 comments on commit dcaf783
+
+Comment on dcaf783
+ 
+Comment
+ Desktop version
